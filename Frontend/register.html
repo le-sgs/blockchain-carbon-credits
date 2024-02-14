@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="heading">CARBON CREDIT MARKETPLACE</h1> <!-- Added heading -->
+  <div class="container">
+    <h2>Register</h2>
+    <form id="registration-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password1" placeholder="Password" required>
+      <input type="password" id="password2" placeholder="Confirm Password" required>
+      <button type="submit">Register</button>
+    </form>
+    <p id="register-message" class="error-message"></p>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+    <p>Sign up using GitHub: <a href="https://github.com/login/oauth/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=YOUR_REDIRECT_URI&scope=user">GitHub</a></p>
+  </div>
+  <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  font-family: 'Montserrat', sans-serif; /* Updated font-family */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Added to make the heading and container stack vertically */
+  height: 100vh;
+  background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with your image file path */
+  background-size: cover;
+  background-position: center;
+}
+
+.heading { /* Added CSS for heading */
+  font-size: 36px; /* Increased font size for heading */
+  text-align: center;
+  margin-bottom: 50px; /* Adjust as needed */
+  color: #e2e4c9;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the container background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px; /* Increased font size for h2 */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 12px; /* Increased padding for better input field appearance */
+  margin-bottom: 20px; /* Increased margin bottom for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px; /* Increased padding for better button appearance */
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px; /* Increased font size for button */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3
+;
+font-size: 20px; /* Increased font size for button on hover */
+}
+
+.error-message {
+font-size: 14px; /* Increased font size for error message */
+color: red;
+margin-top: 10px;
+}
+
+.link {
+text-align: center;
+margin-top: 20px;
+}
+
+.link a {
+font-size: 16px; /* Increased font size for link */
+color: #007bff;
+text-decoration: none;
+}
+
+.link a:hover {
+text-decoration: underline;
+}
